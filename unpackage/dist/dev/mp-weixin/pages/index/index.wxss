@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.home.data-v-57280228 {
+  background: url("https://s1.ax1x.com/2020/07/31/aMTDot.jpg") no-repeat center center/cover;
+}
+.home .swiper-box.data-v-57280228 {
+  padding: 20rpx;
+}
+.home .navber-box.data-v-57280228 {
+  padding: 30rpx 40rpx;
+}
+.home .navber-box .nav-item.data-v-57280228 {
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #ffffff;
+}
+.home .navber-box .nav-item .left view.data-v-57280228:nth-child(1) {
+  font-size: 26rpx;
+}
+.home .navber-box .nav-item .left view.data-v-57280228:nth-child(2) {
+  font-size: 18rpx;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 3rpx;
+}
+.home .navber-box .nav-item .right.data-v-57280228 {
+  width: 80rpx;
+  height: 80rpx;
+}
+.home .navber-box .nav-item .right image.data-v-57280228 {
+  width: 100%;
+  height: 100%;
+}
+.home .teach-superiority.data-v-57280228 {
+  padding: 20rpx;
+}
+.home .teach-superiority .content.data-v-57280228 {
+  margin-top: 20rpx;
+  background-color: #ffffff;
+  padding: 30rpx 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.home .teach-superiority .content .item.data-v-57280228 {
+  margin-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.home .teach-superiority .content .item.data-v-57280228:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.home .teach-superiority .content .item image.data-v-57280228 {
+  width: 140rpx;
+  height: 140rpx;
+}
+.home .teach-superiority .content .item .info-wrap.data-v-57280228 {
+  margin-left: 30rpx;
+}
+.home .teach-superiority .content .item .info-wrap .title.data-v-57280228 {
+  color: #353535;
+  font-weight: bold;
+  line-height: 40rpx;
+  font-size: 30rpx;
+}
+.home .teach-superiority .content .item .info-wrap .info.data-v-57280228 {
+  padding: 10rpx 0;
+  font-size: 24rpx;
+}
+.home .teaching-box.data-v-57280228 {
+  padding: 20rpx;
+}
+.home .teaching-box .module-content.data-v-57280228 {
+  margin-top: 30rpx;
+  background-color: #ffffff;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  padding: 20rpx;
+  white-space: nowrap;
+}
+.home .teaching-box .module-content .class-list.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+.home .teaching-box .module-content .item.data-v-57280228 {
+  width: 60%;
+  margin-right: 20rpx;
+}
+.home .teaching-box .module-content .item image.data-v-57280228 {
+  width: 100%;
+  height: 260rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.home .teaching-box .module-content .item .title.data-v-57280228 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home .teaching-box .module-content .item .sub-title.data-v-57280228 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #888;
+  font-size: 24rpx;
+  margin: 5rpx 0 10rpx;
+}
+.home .teaching-box .module-content .item .price text.data-v-57280228:nth-child(1) {
+  color: red;
+  font-weight: 800;
+  font-size: 32rpx;
+  margin-right: 10rpx;
+}
+.home .teaching-box .module-content .item .price text.data-v-57280228:nth-child(2) {
+  font-size: 24rpx;
+  color: #888;
+  margin-right: 10rpx;
+}
+.home .teaching-box .module-content .item .price text.data-v-57280228:nth-child(3) {
+  font-size: 24rpx;
+  color: #888;
+}
+.home .on-line-answer.data-v-57280228 {
+  margin: 20rpx;
+  padding: 20rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  background-color: #FFFFFF;
+}
+.home .on-line-answer .title.data-v-57280228 {
+  padding: 20rpx;
+}
+.home .on-line-answer .content-list.data-v-57280228 {
+  margin-top: 20rpx;
+  background-color: #FFFFFF;
+  padding: 20rpx;
+}
+.home .on-line-answer .content-list .item.data-v-57280228 {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px 0px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px 0px;
+  margin-bottom: 30rpx;
+  padding: 30rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.home .on-line-answer .content-list .item .header.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.home .on-line-answer .content-list .item .header .exam-btn.data-v-57280228 {
+  border: 1rpx solid #6576ef;
+  padding: 5rpx 10rpx;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
+  font-size: 26rpx;
+  color: #6576ef;
+  margin: 0;
+}
+.home .on-line-answer .content-list .item .time.data-v-57280228 {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #999999;
+}
+.home .on-line-answer .content-list .item .footer-bar.data-v-57280228 {
+  margin-top: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.home .on-line-answer .content-list .item .footer-bar .start-answer-btn.data-v-57280228 {
+  background-color: #6576ef;
+  color: #FFFFFF;
+  padding: 5rpx 30rpx;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  font-size: 26rpx;
+}
+.home .on-line-answer .content-list .item .footer-bar .answer-time.data-v-57280228 {
+  font-size: 24rpx;
+  color: #999999;
+}
+.home .on-line-answer .content-list .item .footer-bar .answer-time text.data-v-57280228 {
+  padding: 0 5rpx;
+  color: #6576ef;
+}
+.home .parent-appraise.data-v-57280228 {
+  padding: 20rpx;
+}
+.home .parent-appraise .content.data-v-57280228 {
+  margin-top: 20rpx;
+}
+.home .parent-appraise .content .item.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #ffffff;
+  font-size: 25rpx;
+  padding: 30rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-bottom: 20rpx;
+}
+.home .parent-appraise .content .item image.data-v-57280228 {
+  width: 300rpx;
+  height: 300rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 2rpx solid #ffffff;
+  margin-right: 30rpx;
+}
+.home .score-query.data-v-57280228 {
+  margin: 20rpx;
+  padding: 40rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  background-color: #ffffff;
+}
+.home .score-query .title.data-v-57280228 {
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.home .score-query .tips.data-v-57280228 {
+  font-size: 24rpx;
+  color: #999;
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+.home .score-query form .name.data-v-57280228,
+.home .score-query form .classes.data-v-57280228,
+.home .score-query form .student-number.data-v-57280228 {
+  margin: 20rpx 0;
+}
+.home .score-query form .name.data-v-57280228::before,
+.home .score-query form .classes.data-v-57280228::before,
+.home .score-query form .student-number.data-v-57280228::before {
+  content: '*';
+  color: red;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.home .score-query .score-query-btn.data-v-57280228 {
+  margin-top: 60rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+

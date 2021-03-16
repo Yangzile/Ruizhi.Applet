@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "皇家族基地",
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

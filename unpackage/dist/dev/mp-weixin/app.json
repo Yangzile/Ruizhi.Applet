@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recruit-plan/recruit-plan",
+    "pages/education/education",
+    "pages/my/my",
+    "pages/school/school",
+    "pages/order/order",
+    "pages/order-detail/order-detail",
+    "pages/class-detail/class-detail",
+    "pages/settlement/settlement",
+    "pages/settlement-success/settlement-success",
+    "pages/query-result/query-result",
+    "pages/news/news",
+    "pages/news-detail/news-detail",
+    "pages/mock-examination/mock-examination",
+    "pages/exam-detail/exam-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智睿教育",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#6576ef",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/home_icon.png",
+        "selectedIconPath": "static/img/home_icon_active.png"
+      },
+      {
+        "pagePath": "pages/education/education",
+        "text": "特色教育",
+        "iconPath": "static/img/teaching_home-icon.png",
+        "selectedIconPath": "static/img/teaching_home-icon-active.png"
+      },
+      {
+        "pagePath": "pages/recruit-plan/recruit-plan",
+        "text": "招生计划",
+        "iconPath": "static/img/plan_home-icon.png",
+        "selectedIconPath": "static/img/plan_home-icon-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/img/my_home-icon.png",
+        "selectedIconPath": "static/img/my_home-icon-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap29.json"
+}

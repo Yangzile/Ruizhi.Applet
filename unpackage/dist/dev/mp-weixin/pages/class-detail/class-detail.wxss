@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.detail-page.data-v-9e838c74 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #f4f4f4;
+}
+.detail-page .class-content.data-v-9e838c74 {
+  background-color: #ffffff;
+  padding: 0 20rpx 20rpx;
+}
+.detail-page .class-content image.data-v-9e838c74 {
+  width: 100%;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.detail-page .class-content .title-box.data-v-9e838c74 {
+  padding: 10rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.detail-page .class-content .title-box .title.data-v-9e838c74 {
+  font-weight: 600;
+  border: none;
+  background-color: #ffffff;
+}
+.detail-page .class-content .title-box .share.data-v-9e838c74 {
+  margin: 0;
+  border: none;
+}
+.detail-page .class-content .summary.data-v-9e838c74 {
+  font-size: 24rpx;
+  color: #999999;
+  margin-bottom: 10rpx;
+}
+.detail-page .class-content .price.data-v-9e838c74 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.detail-page .class-content .price text.data-v-9e838c74 {
+  font-size: 24rpx;
+  color: #999999;
+}
+.detail-page .class-content .price text.data-v-9e838c74:nth-child(1) {
+  color: red;
+  font-size: 36rpx;
+  margin-right: 20rpx;
+}
+.detail-page .class-content .price text.data-v-9e838c74:nth-child(2) {
+  margin-right: 20rpx;
+}
+.detail-page .server__detail.data-v-9e838c74 {
+  padding: 10rpx;
+  background-color: #ffffff;
+  margin-top: 20rpx;
+  padding-bottom: 120rpx;
+}
+.detail-page .server__detail-title.data-v-9e838c74 {
+  padding: 20rpx 0;
+}
+.detail-page .server__detail-content.data-v-9e838c74 {
+  padding: 10rpx 0;
+  border-top: 1rpx solid #eeeeee;
+  color: #999999;
+}
+.detail-page .server__detail image.data-v-9e838c74 {
+  width: 100%;
+}
+.detail-page .footer-bar.data-v-9e838c74 {
+  position: fixed;
+  height: 120rpx;
+  background-color: #ffffff;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 20rpx;
+}
+.detail-page .footer-bar .phone.data-v-9e838c74 {
+  padding: 0 20rpx;
+}
+.detail-page .footer-bar .btn.data-v-9e838c74 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 20rpx;
+}
+

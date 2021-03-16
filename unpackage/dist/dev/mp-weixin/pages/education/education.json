@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "特色教育",
+  "usingComponents": {
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item",
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

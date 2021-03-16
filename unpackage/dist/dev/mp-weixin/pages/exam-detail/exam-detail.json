@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "开始答题",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down",
+    "u-top-tips": "/uview-ui/components/u-top-tips/u-top-tips"
+  }
+}
